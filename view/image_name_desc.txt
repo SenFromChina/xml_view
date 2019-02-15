@@ -1,0 +1,42 @@
+  <RelativeLayout
+                android:id="@+id/rly_parent"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginVertical="8dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:id="@+id/iv_member_logo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:contentDescription="round"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/null_image" />
+
+                <TextView
+
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/iv_member_logo"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/iv_member_logo"
+                    android:lines="2"
+                    android:text="昵称"
+                    android:textColor="@color/color_text_808080"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/iv_member_logo"
+                    android:layout_toRightOf="@id/iv_member_logo"
+                    android:text="会员数 %s    订单数 %s   总佣金 %.2f"
+                    android:textSize="12sp" />
+            </RelativeLayout>
