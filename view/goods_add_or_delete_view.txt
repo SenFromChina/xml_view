@@ -1,0 +1,33 @@
+<LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1.5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_rec_bg_stroke"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="@color/color_text_333333"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_rec_bg_stroke"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_rec_bg_stroke"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/color_text_333333"
+            android:textSize="24sp" />
+    </LinearLayout>
