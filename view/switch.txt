@@ -1,0 +1,3 @@
+<Switch
+     android:id="@+id/sw_swith"
+     style="@style/switch_green" />
